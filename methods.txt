@@ -1,0 +1,38 @@
+Set of built in methods used to modify Strings in Python:
+
+MODIFYING STRINGS:
+
+1. upper() - use to convert all into uppercase 
+eg: 
+b = "Hello,World!"
+print(b.upper())
+
+output: HELLO,WORLD!
+
+2. lower() - converts to lowercase
+eg:
+b = "Hello,World!"
+print(b.lower())
+
+output: hello,world!
+
+3. strip() - removes any whitespace before or after actual Strings
+eg:
+b = " Hello, World! "
+print(b.strip())
+
+output: Hello, World!
+
+4. replace() - replace one string with another
+eg:
+b = "Hello, World!"
+print(b.replace("H", "J"))
+
+output: Jello, World!
+
+5. split() - splits a string into substrings if it finds instances of seperation.
+eg:
+b = "Hello, World!"
+print(b.split(","))
+
+output: ['Hello', ' World!']
