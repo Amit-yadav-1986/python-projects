@@ -36,3 +36,19 @@ b = "Hello, World!"
 print(b.split(","))
 
 output: ['Hello', ' World!']
+
+STRING CANCATENATION:
+
+String cancatenation can be done using "+" operator
+
+eg: a = "Hello"
+b = "World"
+print(a + b)
+output: HelloWorld
+
+To add space between "Hello" and "World", simply add space using " "
+eg:
+a = "Hello"
+b = "World"
+print(a + " " +b)
+output: Hello World
